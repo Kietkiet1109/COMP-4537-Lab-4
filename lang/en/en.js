@@ -1,3 +1,8 @@
-const serverErrorMessage = "Server responded with status 404: Server not found"
-const requestNum = "Request Number #"
-const endpoint = "https://comp4537-lab4-server2-sbfs9.ondigitalocean.app/COMP4537/labs/4/api/definitions"
+module.exports = {
+    invalidWord: "Invalid word format. Please enter a valid English word.",
+    notfoundWord: `Word '${word}' not found in the dictionary.`,
+    missingInfo: "Invalid input. Please provide a valid word and definition.",
+    haveWord: `Warning! The word '${word}' already exists in the dictionary.`,
+    addWord: "New entry recorded:",
+    serverRunning: "Dictionary API running on port 3000"
+};
